@@ -1,0 +1,108 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+nav{
+	height: 34px;
+	background-color: #fafafa;
+	font-size: 12px;
+	text-align: right;
+	}
+
+.toplinks>li, footer li{
+	list-style: none;
+	display: inline-block;
+	margin:10px 15px 0 0;
+	color: #333;
+}
+.toplinks li>a
+{color:#333;
+transition: 0.5s;
+padding-left: 4px;}
+
+.toplinks li>a:hover
+{color:#f90;
+
+}
+
+
+
+.container {
+	margin-top: 180px;
+}
+
+.logo{
+	margin:0 auto;
+	width: 272px;
+	height: 82px;
+}
+
+
+.searchbar
+{text-align: center;
+width: 100%;
+}
+.searchinput{
+	display: block;
+	margin:20px auto;
+	width: 450px;height: 40px;
+	border:1px solid #aaa;	
+	padding: 0 15px;
+}
+
+.searchbar button
+{
+	height: 40px;
+	background-color: #f2f2f2;
+	border:1px solid #f2f2f2;
+	color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+
+
+}
+
+.searchbar button:hover
+{
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+
+footer{
+	display: block;
+	background-color: #f3f3f3;
+	bottom: 0;
+    font-size: 10pt;
+    height: 39px;
+    position: absolute;
+    width: 100%;
+}
+
+.footerleft{
+float: left;
+}
+
+.footerright{
+float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
