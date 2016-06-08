@@ -27,6 +27,18 @@ padding-left: 4px;}
 
 }
 
+.navicons
+{
+	background-image: url('../img/google-sprite.png');
+	background-size: 528px 68px;
+}
+
+.apps {
+	width: 30px;height: 30px;
+	background-position: -132px -38px;
+	position: absolute;
+}
+
 
 
 .container {
